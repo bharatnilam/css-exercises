@@ -4,16 +4,30 @@ body {
   min-height: 100vh;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+
+}
+
 .header {
   height: 72px;
+  margin: auto 0;
   background: darkmagenta;
   color: white;
 }
 
 .footer {
   height: 72px;
+  bottom: 0;
   background: #eee;
   color: darkmagenta;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .sidebar {
